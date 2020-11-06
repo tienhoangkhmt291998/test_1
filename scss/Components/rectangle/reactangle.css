@@ -1,0 +1,41 @@
+.btn-blue {
+  width: 170px;
+  height: 57px;
+  margin-right: 35px;
+  border-radius: 40px;
+  font-size: 18px;
+  background-color: #2500f9;
+  color: white;
+  border: 0;
+}
+
+.card-link {
+  color: #715afa;
+}
+
+.card-link :hover {
+  color: white !important;
+}
+
+.btn-blue:focus {
+  outline: none;
+}
+
+.btn-blue:hover {
+  background-image: linear-gradient(140deg, #EADEDB 0%, #BC70A4 50%, #BFD641 75%);
+}
+
+.card .card-body {
+  width: 71%;
+  margin-left: auto;
+}
+
+.card .card-body .card-title {
+  font-size: 66px;
+}
+
+.card .card-body .card-text {
+  font-size: 20px;
+  width: 80%;
+}
+/*# sourceMappingURL=reactangle.css.map */

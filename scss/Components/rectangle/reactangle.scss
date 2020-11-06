@@ -1,0 +1,32 @@
+@import '../../module';
+
+.card-link{
+    color: rgb(113, 90, 250);
+    :hover{
+        color: white !important;
+    }
+}
+
+.btn-blue{
+    @extend %btn;
+    &:focus{
+        outline: none;
+    }
+    &:hover{        
+        background-image:linear-gradient(140deg, #EADEDB 0%, #BC70A4 50%, #BFD641 75%)  ;
+    }
+}
+.card{
+    .card-body{
+        width: 71%;
+        margin-left: auto;
+        .card-title{
+            font-size: 66px;
+        }
+        .card-text{
+            font-size: 20px;
+            width: 80%;
+        }
+    }
+}
+
