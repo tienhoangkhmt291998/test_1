@@ -25,9 +25,62 @@
   background-image: linear-gradient(140deg, #EADEDB 0%, #BC70A4 50%, #BFD641 75%);
 }
 
+/*
+    rectangle
+*/
+.rectangle {
+  margin-top: 40px;
+}
+
+.rectangle .rectangle-col {
+  position: relative;
+}
+
+.rectangle-col::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 16%;
+  width: 25px;
+  height: 25px;
+  border: 6px solid #d4cdfd;
+  border-radius: 50%;
+  z-index: 2365632;
+}
+
+.card {
+  position: relative;
+  padding-top: 180px;
+}
+
 .card .card-body {
   width: 71%;
   margin-left: auto;
+}
+
+.card .card-body h3 {
+  width: 60%;
+  background: #e2eaed;
+  font-size: 19px;
+  border-radius: 35px;
+}
+
+.card .card-body h3 .fa-question {
+  width: 45px;
+  height: 45px;
+  text-align: center;
+  margin-right: 10px;
+  border-radius: 50%;
+  background: #feaa25;
+}
+
+.card .card-body h3 .fa-question::before {
+  font-size: 15px;
+  border: 1px solid white;
+  color: white;
+  padding: 2px 3px;
+  margin-left: 7px;
+  line-height: 45px;
 }
 
 .card .card-body .card-title {
@@ -37,5 +90,37 @@
 .card .card-body .card-text {
   font-size: 20px;
   width: 80%;
+  padding-top: 15px;
+  padding-bottom: 20px;
+}
+
+.card::after {
+  content: "";
+  height: 25px;
+  width: 25px;
+  border: 4px solid #d4cdfd;
+  position: absolute;
+  top: 92px;
+  left: 540px;
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+}
+
+.card::before {
+  content: "\f00d";
+  position: absolute;
+  bottom: 0;
+  opacity: 0.6;
+  font-size: 15px;
+}
+
+.rectangle-img {
+  overflow: hidden;
+  padding: 0;
+}
+
+.rectangle-img img {
+  height: 245px;
+  width: 100%;
 }
 /*# sourceMappingURL=reactangle.css.map */
