@@ -9,14 +9,6 @@
   border: 0;
 }
 
-.banner__groups .btn > button:focus {
-  outline: none;
-}
-
-.banner__groups .btn > button:hover {
-  background-image: linear-gradient(140deg, #EADEDB 0%, #BC70A4 50%, #BFD641 75%);
-}
-
 .banner {
   margin-top: 85px;
 }
