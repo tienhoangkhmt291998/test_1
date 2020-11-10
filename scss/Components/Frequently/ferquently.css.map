@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AACA,AAAA,WAAW,CAAA;EACP,gBAAgB,EAAE,OAAO;CAC5B;;AAED,AAAA,KAAK,EAAE,EAAE,EAAE,EAAE,CAAC;EACV,MAAM,EAAE,eAAe;EACvB,MAAM,EAAE,IAAI;CACf",
+    "sources": [
+        "ferquently.scss"
+    ],
+    "names": [],
+    "file": "ferquently.css"
+}

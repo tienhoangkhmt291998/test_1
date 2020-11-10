@@ -1,9 +1,5 @@
 footer{
-    display: flex;
-    align-items: center;
     height: 513px;
-    justify-content: center;
-    text-align: center;
     h1{
         margin-bottom: 50px;
        
@@ -20,13 +16,18 @@ footer{
     }
     .nav{
         justify-content: center;
-        margin-bottom: 50px;
+        margin-bottom: 45px;
     }
     .author{
         p{
             color: rgb(53, 62, 84);
         }
     }
+
+    .font-size{
+        font-size: 25px;
+    }
     
-    
+
 }
+
