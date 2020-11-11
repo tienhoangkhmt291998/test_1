@@ -40,4 +40,8 @@
 .downloadPath .btn-apple {
   margin-left: 35px;
 }
+
+.downloadPath .Path--images img {
+  width: 100%;
+}
 /*# sourceMappingURL=Download.css.map */
