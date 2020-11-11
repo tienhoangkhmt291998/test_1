@@ -36,36 +36,24 @@
   position: relative;
 }
 
-.rectangle-col::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 16%;
-  width: 25px;
-  height: 25px;
-  border: 6px solid #d4cdfd;
-  border-radius: 50%;
-  z-index: 2365632;
-}
-
-.card {
+.rectangle .rectangle-col .card {
   position: relative;
   padding-top: 180px;
 }
 
-.card .card-body {
+.rectangle .rectangle-col .card .card-body {
   width: 71%;
   margin-left: auto;
 }
 
-.card .card-body h3 {
+.rectangle .rectangle-col .card .card-body h3 {
   width: 60%;
   background: #e2eaed;
   font-size: 19px;
   border-radius: 35px;
 }
 
-.card .card-body h3 .fa-question {
+.rectangle .rectangle-col .card .card-body h3 .fa-question {
   width: 45px;
   height: 45px;
   text-align: center;
@@ -74,7 +62,7 @@
   background: #feaa25;
 }
 
-.card .card-body h3 .fa-question::before {
+.rectangle .rectangle-col .card .card-body h3 .fa-question::before {
   font-size: 15px;
   border: 1px solid white;
   color: white;
@@ -83,18 +71,18 @@
   line-height: 45px;
 }
 
-.card .card-body .card-title {
+.rectangle .rectangle-col .card .card-body .card-title {
   font-size: 66px;
 }
 
-.card .card-body .card-text {
+.rectangle .rectangle-col .card .card-body .card-text {
   font-size: 20px;
   width: 80%;
   padding-top: 15px;
   padding-bottom: 20px;
 }
 
-.card::after {
+.rectangle .rectangle-col .card::after {
   content: "";
   height: 25px;
   width: 25px;
@@ -106,7 +94,7 @@
           transform: rotate(45deg);
 }
 
-.card::before {
+.rectangle .rectangle-col .card::before {
   content: "\f00d";
   position: absolute;
   bottom: 0;
@@ -114,12 +102,24 @@
   font-size: 15px;
 }
 
-.rectangle-img {
+.rectangle .rectangle-col .rectangle-img {
   padding: 0;
 }
 
-.rectangle-img img {
+.rectangle .rectangle-col .rectangle-img img {
   height: 245px;
   width: 100%;
+}
+
+.rectangle-col::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 16%;
+  width: 25px;
+  height: 25px;
+  border: 6px solid #d4cdfd;
+  border-radius: 50%;
+  z-index: 2365632;
 }
 /*# sourceMappingURL=reactangle.css.map */

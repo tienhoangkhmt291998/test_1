@@ -1,9 +1,15 @@
+#Client {
+  overflow: hidden;
+  padding-top: 156px;
+  border-top: 1px solid;
+}
+
 .ClientProduct--title {
   margin-left: auto;
 }
 
 .ClientProduct--title h1 {
-  width: 60%;
+  width: 63%;
 }
 
 .ClientProduct .ClientProduct__images--bg img {
@@ -22,6 +28,7 @@
 
 .ClientProduct .ClientProduct__images--icon img {
   width: 100%;
+  border-radius: 50%;
 }
 
 .ClientProduct .images-1 {
@@ -42,10 +49,10 @@
 }
 
 .ClientProduct .images-4 {
-  height: 60px;
-  width: 60px;
+  height: 80px;
+  width: 80px;
   top: 50%;
-  left: 12%;
+  left: 10%;
 }
 
 .ClientProduct .images-5 {
@@ -56,8 +63,8 @@
 }
 
 .ClientProduct .images-6 {
-  height: 100px;
-  width: 100px;
+  height: 120px;
+  width: 120px;
   top: 70%;
   left: 32%;
 }
@@ -68,6 +75,7 @@
 
 .ClientProduct .ClientProduct__headding .ClientProduct__body .ClientProduct--text {
   margin-top: 30px;
+  margin-bottom: 0 !important;
   width: 60%;
 }
 
@@ -86,10 +94,20 @@
 
 .ClientProduct .ClientProduct__headding .ClientProduct__body .body--content .silder--user {
   width: 85%;
+  margin-top: 1.5rem;
 }
 
 .ClientProduct .ClientProduct__headding .ClientProduct__body .body--content .silder--user .col-lg-2 i {
   font-size: 35px;
   margin: 10px;
+}
+
+.ClientProduct .ClientProduct__headding .ClientProduct__body .body--content .silder--user .user--items img {
+  height: 70px;
+  width: 70px;
+}
+
+.ClientProduct .ClientProduct__headding .ClientProduct__body .body--content .silder--user .user--items .user--introduce h4, .ClientProduct .ClientProduct__headding .ClientProduct__body .body--content .silder--user .user--items .user--introduce p {
+  font-size: 1rem;
 }
 /*# sourceMappingURL=ClientProduct.css.map */
