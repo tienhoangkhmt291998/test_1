@@ -11,6 +11,7 @@
     @extend %btn;
     &:focus{
         outline: none;
+        
     }
     &:hover{        
         background-image:linear-gradient(140deg, #EADEDB 0%, #BC70A4 50%, #BFD641 75%)  ;
@@ -23,16 +24,25 @@
 */
 .rectangle{
     margin-top: 40px;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-image: url(../../../images/Layer.png);
+    background-size: contain;
+    img{
+        height: 100%;
+        border-radius: 50px;
+    }
     .rectangle-col{
         position: relative;
         .card{
             position: relative;
-            padding-top: 180px;
+            padding: 0;
+            
             .card-body{
                 width: 71%;
                 margin-left: auto;
                 h3{
-                    width: 60%;
+                    width: 70%;
                     background: rgb(226, 234, 237);
                     font-size: 19px;
                     border-radius: 35px;
@@ -59,7 +69,6 @@
                 }
                 .card-text{
                     font-size: 20px;
-                    width: 80%;
                     padding-top: 15px;
                     padding-bottom: 20px;
                 }
@@ -71,8 +80,8 @@
             width: 25px;
             border: 4px solid rgb(212, 205, 253);
             position: absolute;
-            top: 92px;
-            left: 540px;
+            top: -10%;
+            left: 459px;
             transform: rotate(45deg);
         }
         .card::before{

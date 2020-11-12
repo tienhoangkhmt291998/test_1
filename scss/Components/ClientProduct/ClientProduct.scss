@@ -1,13 +1,15 @@
 #Client{
     overflow: hidden;
     padding-top: 156px;
-    border-top: 1px solid;
 }
-
+.row{
+    margin-left: 0;
+    margin-right: 0;
+}
 .ClientProduct--title{
     margin-left: auto;
     h1{
-        width: 63%;
+        width: 75%;
     }
 }
 
@@ -62,7 +64,7 @@
         height: 120px;
         width: 120px;
         top: 70%;
-        left: 32%;
+        left: 30%;
     }
     .images-7{
         left: 30%;
@@ -93,6 +95,7 @@
                     .col-lg-2{
                         i{
                             font-size: 35px;
+                            color: #2500f9;
                             margin: 10px;
                         }
                     }
